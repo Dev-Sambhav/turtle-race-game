@@ -4,6 +4,7 @@ import random
 screen = Screen()
 # set up the screen size
 screen.setup(width=500, height=400)
+screen.title("Turtle Race")
 
 # taking user bet choice
 user_bet = screen.textinput(title="Make a bet", prompt="Which turtle will win the race? Enter a color: ").lower()
